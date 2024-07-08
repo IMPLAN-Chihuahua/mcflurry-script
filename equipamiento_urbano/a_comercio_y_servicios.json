@@ -2,80 +2,47 @@
     "equipamientos": [
         {
             "feature_layer": "T01_Tianguis",
-            "area_estudio": {
-                "buffer_distances": [],
-                "enable_accesibilidad": false
-            }
+            "buffer_distance": 1000
         },
         {
             "feature_layer": "T02_Diconsa_Liconsa",
-            "area_estudio": {
-                "buffer_distances": [],
-                "enable_accesibilidad": false
-            }
+            "buffer_distance": 1500
         },
         {
             "feature_layer": "T03_TiendaFarmacia_SuperISSSTE",
-            "area_estudio": {
-                "buffer_distances": [],
-                "enable_accesibilidad": false
-            }
+            "buffer_distance": 1500
         },
         {
             "feature_layer": "T04_Banco_Bienestar",
-            "area_estudio": {
-                "buffer_distances": [],
-                "enable_accesibilidad": false
-            }
+            "buffer_distance": 1200
         },
         {
             "feature_layer": "T05_Sucursal_FONACOT",
-            "area_estudio": {
-                "buffer_distances": [],
-                "enable_accesibilidad": false
-            }
+            "buffer_distance": 1200
         },
         {
             "feature_layer": "T06_Mercado_Popular",
-            "area_estudio": {
-                "buffer_distances": [],
-                "enable_accesibilidad": false
-            }
+            "buffer_distance": 750
         },
         {
             "feature_layer": "T07_Centro_Comercial_Abierto",
-            "area_estudio": {
-                "buffer_distances": [],
-                "enable_accesibilidad": false
-            }
+            "buffer_distance": 2400
         },
         {
             "feature_layer": "T08_Centro_Comercial_TiendaAncalaSub",
-            "area_estudio": {
-                "buffer_distances": [],
-                "enable_accesibilidad": false
-            }
+            "buffer_distance": 2400
         },
         {
             "feature_layer": "T09_Banca_Desarrollo",
-            "area_estudio": {
-                "buffer_distances": [],
-                "enable_accesibilidad": false
-            }
+            "buffer_distance": 1200
         },
         {
             "feature_layer": "T10_Centro_Convenciones",
-            "area_estudio": {
-                "buffer_distances": [],
-                "enable_accesibilidad": false
-            }
+            "buffer_distance": 20000
         },
         {
             "feature_layer": "T11_Centro_Exposiciones_Exhibiciones",
-            "area_estudio": {
-                "buffer_distances": [],
-                "enable_accesibilidad": false
-            }
+            "buffer_distance": 20000
         }
     ]
 }
