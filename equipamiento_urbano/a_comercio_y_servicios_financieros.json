@@ -1,0 +1,81 @@
+{
+    "equipamientos": [
+        {
+            "feature_layer": "T01__Tianguis",
+            "area_estudio": {
+                "buffer_distances": [],
+                "enable_accesibilidad": false
+            }
+        },
+        {
+            "feature_layer": "T02__DiconsaLiconsaSEGALMEX",
+            "area_estudio": {
+                "buffer_distances": [],
+                "enable_accesibilidad": false
+            }
+        },
+        {
+            "feature_layer": "T03__Tiendas_y_Farmacias_SuperISSSTE",
+            "area_estudio": {
+                "buffer_distances": [],
+                "enable_accesibilidad": false
+            }
+        },
+        {
+            "feature_layer": "T04__Sucursales_del_Banco_Bienestar",
+            "area_estudio": {
+                "buffer_distances": [],
+                "enable_accesibilidad": false
+            }
+        },
+        {
+            "feature_layer": "T05__Sucursal_FONACOT",
+            "area_estudio": {
+                "buffer_distances": [],
+                "enable_accesibilidad": false
+            }
+        },
+        {
+            "feature_layer": "T06__Mercado_Popular",
+            "area_estudio": {
+                "buffer_distances": [],
+                "enable_accesibilidad": false
+            }
+        },
+        {
+            "feature_layer": "T07__Centros_Comerciales_Abiertos",
+            "area_estudio": {
+                "buffer_distances": [],
+                "enable_accesibilidad": false
+            }
+        },
+        {
+            "feature_layer": "T08__Centro_Comercial__con_Tienda_Ancla_o_Subancla",
+            "area_estudio": {
+                "buffer_distances": [],
+                "enable_accesibilidad": false
+            }
+        },
+        {
+            "feature_layer": "T09__Banca_de_Desarrollo",
+            "area_estudio": {
+                "buffer_distances": [],
+                "enable_accesibilidad": false
+            }
+        },
+        {
+            "feature_layer": "T10__Centro_de_Convenciones",
+            "area_estudio": {
+                "buffer_distances": [],
+                "enable_accesibilidad": false
+            }
+        },
+        {
+            "feature_layer": "T11__Centro_de_exposiciones__exhibiciones_o_recintos",
+            "area_estudio": {
+                "buffer_distances": [],
+                "enable_accesibilidad": false
+            }
+        }
+    ]
+}

@@ -1,0 +1,55 @@
+[
+    {
+        "name": "poblacion",
+        "feature_layer": "",
+        "case_fields": [
+            "FID_predio???"
+        ],
+        "stat_fields": [
+            ["Pob_Total_","SUM"], 
+            ["Pob_Fem_Pr", "SUM"],
+            ["Pob_Masc_P", "SUM"],
+            ["pcon_disc_", "SUM"],
+            ["psinder_Pr", "SUM"]
+        ]
+    },
+    {
+        "name": "pavimentacion",
+        "feature_layer": "ejes_de_calle_3",
+        "case_fields": ["Tipo_Pavimento"],
+        "stat_fields": [
+            ["SupACm2", "SUM"],
+            ["Sup_Bnqts", "SUM"]
+        ]
+    },
+    {
+        "name": "estructura_vial",
+        "feature_layer": "",
+        "case_fields": [
+            "jrq_vial",
+            "tp_vial",
+            "ciclovia"
+        ],
+        "stat_fields": []
+    },
+    {
+        "name": "alumbrado_publico",
+        "feature_layer": "Alumbrado_PublicoP",
+        "case_fields": ["T_ALUM"],
+        "stat_fields": []
+    }, 
+    {
+        "name": "transporte_publico_rutas",
+        "feature_layer": "",
+        "case_fields": ["nom_ruta"],
+        "stat_fields": [
+            ["frec_min", "???"]
+        ]
+    },
+    {
+        "name": "transporte_publico_paraderos",
+        "feature_layer": "",
+        "case_fields": ["TipoParadero"],
+        "stat_fields": []
+    }
+]
