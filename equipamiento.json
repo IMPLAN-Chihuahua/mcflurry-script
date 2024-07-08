@@ -1,0 +1,28 @@
+[
+    {
+        "feature_layer": "P:\\00_PlanesyProgramas\\GabrielaCervantes\\Año_2024\\06_Programa Sectorial de Equipamiento\\05_shp\\PredioUrbano_Censo2020.shp",
+        "case_fields": [
+            "FID_predio"
+        ],
+        "stat_fields": [
+            [
+                "Pob_Total_",
+                "SUM"
+            ]
+        ]
+    },
+    {
+        "feature_layer": "N:\\geodbCUU_ws\\020 Transporte\\gdbwork\\020_Transporte_Lalo.gdb\\TransportePublico",
+        "case_fields": [
+            "Ruta"
+        ],
+        "stat_fields": []
+    },
+    {
+        "feature_layer": "G:\\datos\\datos_catastrales.gdb\\ejes_calle_3",
+        "case_fields": [
+            "Tipo_Pavimento"
+        ],
+        "stat_fields": []
+    }
+]
