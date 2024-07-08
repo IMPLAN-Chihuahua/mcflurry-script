@@ -43,7 +43,7 @@
         "feature_layer": "",
         "case_fields": ["nom_ruta"],
         "stat_fields": [
-            ["frec_min", "???"]
+            ["OID", "COUNT"]
         ]
     },
     {
