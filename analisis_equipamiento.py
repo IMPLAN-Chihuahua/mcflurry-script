@@ -16,7 +16,7 @@ def get_stats_fields(server_layer):
     if geom_type == "line" or geom_type == "polyline":
         statistics_fields = [["Shape_Length", "SUM"]]
     if geom_type == "point" or geom_type == "multipoint":
-        statistics_fields = [["OBJECTID", "COUNT"]]
+        statistics_fields = [["OID", "COUNT"]]
 
     return statistics_fields
 
@@ -28,7 +28,6 @@ def parse_params(equipamiento):
         return (feature_layer, case_fields, stat_fields)
     except IndexError as e:
         raise Exception(f"No se recibieron los parametros necesarios: {str(e)}")
-    pass
 
 def prepare_area_estudio(geom, radio):
     epsg6368 = arcpy.SpatialReference(6368)
@@ -51,41 +50,39 @@ analisis_gdb = f"{workspace_folder}{gdb_name}"
 arcpy.management.CreateFileGDB(workspace_folder, gdb_name)
 arcpy.env.workspace = analisis_gdb
 arcpy.env.overwriteOutput = True
-arcpy.env.transferDomains = "TRANSFER_DOMAINS"
+arcpy.env.transferDomains = True
 
-area_estudio = r'O:\Gabriela\McFlurryTeam\Preescolar\Preescolar_Buffer_750.shp' #sys.argv[1]
-area_estudio = arcpy.CopyFeatures_management(
-        area_estudio, rf"{arcpy.env.workspace}\area_estudio_{int(time.time())}"
-)
-radio = 50 #int(sys.argv[2])
 
-equipamiento = r'./equipamiento.json'
-f = open(equipamiento)
-json_equipamiento = json.loads(f.read())
+equipamientos = r'./equipamineto_urbano/a_comercio_y_servicios.json'
+f_eqp = open(equipamientos)
+equipamientos = json.loads(f_eqp.read())
+f_eqp.close()
 
-one_equip = json_equipamiento[0]
+analysis_features = r'./toAnalyze.json'
+f_analysis = open(analysis_features)
+analysis_features = json.loads(f_analysis.read())
+f_analysis.close()
 
-feature_layer, case_fields, stat_fields = parse_params(one_equip)
-eqp_stat_fields = get_stats_fields(feature_layer)
 tbx = arcpy.AddToolbox(tbx_path)
-case_fields.append('BUFF_DIST')
-res = tbx.IntersectAnalisis(
-    Capa_server=feature_layer,
-    Geojson=area_estudio,
-    Case_Field=case_fields,
-    Statistics_Fields=eqp_stat_fields.extend(stat_fields),
-)
-f.close()
+# TODO: case_fields.append('BUFF_DIST')
+
+for equipamiento in equipamientos:
+    eqp_layer = equipamiento.get('feature_layer')
+    buffer_distance = equipamiento.get('buffer_distance')
+    for item in analysis_features:
+        feature_layer, case_fields, stat_fields = parse_params(item)
+        eqp_stat_fields = get_stats_fields(feature_layer)
+        # call model that merges prepare area and summary intersect
+        # res = tbx.IntersectAnalisis(
+        #     Capa_server=feature_layer,
+        #     Geojson=area_estudio,
+        #     Case_Field=case_fields,
+        #     Statistics_Fields=eqp_stat_fields.extend(stat_fields),
+        # )
+        pass
+    pass
+
 stop = timeit.default_timer()
 
 print("Time: ", stop - start)
-print("Time: ", stop - start)
-print("Time: ", stop - start)
-print("Time: ", stop - start)
-print("Time: ", stop - start)
-print("Time: ", stop - start)
-
-
-if not radio:
-    print('buffer proporcionado')
 
