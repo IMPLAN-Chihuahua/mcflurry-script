@@ -1,0 +1,10 @@
+[
+    {
+        "feature_layer": "T01_Admon_Postal",
+        "radio_servicio": 1500
+    },
+    {
+        "feature_layer": "T02_Instalaciones_telecom_y_radiofusion",
+        "radio_servicio": 5000
+    }
+]

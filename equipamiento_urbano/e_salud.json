@@ -1,0 +1,42 @@
+[
+    {
+        "feature_layer": "T01_1NA_Centro_Rehabilitacion_Fisica",
+        "radio_servicio": 2400
+    },
+    {
+        "feature_layer": "T03_1NA_Laboratorios_y_Gabinetes",
+        "radio_servicio": 1200
+    },
+    {
+        "feature_layer": "T03_1NA_Cruz_Roja",
+        "radio_servicio": 10000
+    },
+    {
+        "feature_layer": "T03_1NA_Centro_Salud",
+        "radio_servicio": 2400
+    },
+    {
+        "feature_layer": "T03_1NA_Unidad_Medica_Familiar",
+        "radio_servicio": 5000
+    },
+    {
+        "feature_layer": "T04_2NA_Clinica",
+        "radio_servicio": 10000
+    },
+    {
+        "feature_layer": "T04_2NA_Hospital",
+        "radio_servicio": 20000
+    },
+    {
+        "feature_layer": "T05_2NA_Centro_Atencion_Especial",
+        "radio_servicio": 10000
+    },
+    {
+        "feature_layer": "T06_2NA_Centro_Rehabilitacion_InclusInf_Teleton",
+        "radio_servicio": 20000
+    },
+    {
+        "feature_layer": "T07_3NA_Hospital_Especialidades",
+        "radio_servicio": 20000
+    }
+]

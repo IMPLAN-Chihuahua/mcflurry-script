@@ -1,0 +1,14 @@
+[
+    {
+        "feature_layer": "T02_Estacion_de_Servicio",
+        "radio_servicio": 1000
+    },
+    {
+        "feature_layer": "T06_Central_de_Abastos",
+        "radio_servicio": 20000
+    },
+    {
+        "feature_layer": "T07_Distribuidor_GasLicuadoPetroleo",
+        "radio_servicio": 1000
+    }
+]

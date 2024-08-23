@@ -1,0 +1,82 @@
+[
+    {
+        "feature_layer": "T02_Preescolar",
+        "radio_servicio": 750
+    },
+    {
+        "feature_layer": "T03_Primaria",
+        "radio_servicio": 500
+    },
+    {
+        "feature_layer": "T05_SecundariaGeneral",
+        "radio_servicio": 1000
+    },
+    {
+        "feature_layer": "T06_SecundariaTecnica",
+        "radio_servicio": 1500
+    },
+    {
+        "feature_layer": "T07_Telesecundaria",
+        "radio_servicio": 1000
+    },
+    {
+        "feature_layer": "T08_BachilleratoTecnologico",
+        "radio_servicio": 5000
+    },
+    {
+        "feature_layer": "T09_CentroEstudiosBachillerato",
+        "radio_servicio": 2000
+    },
+    {
+        "feature_layer": "T10_ColegioNacionalProfesionalTecnico",
+        "radio_servicio": 2000
+    },
+    {
+        "feature_layer": "T11_COBACH",
+        "radio_servicio": 2000
+    },
+    {
+        "feature_layer": "T12_CECYTE",
+        "radio_servicio": 5000
+    },
+    {
+        "feature_layer": "T14_CONALEP",
+        "radio_servicio": 5000
+    },
+    {
+        "feature_layer": "T15_NormalSuperior",
+        "radio_servicio": 20000
+    },
+    {
+        "feature_layer": "T16_UniversidadesPedagogicas",
+        "radio_servicio": 20000
+    },
+    {
+        "feature_layer": "T17_UniversidadesTecnologicas",
+        "radio_servicio": 20000
+    },
+    {
+        "feature_layer": "T18_UniversidadesPolitecnicas",
+        "radio_servicio": 20000
+    },
+    {
+        "feature_layer": "T19_InstitutosTecnologicos",
+        "radio_servicio": 20000
+    },
+    {
+        "feature_layer": "T21_UniversidadesPublicasEstatales",
+        "radio_servicio": 20000
+    },
+    {
+        "feature_layer": "T22_UniversidadesPrivadas",
+        "radio_servicio": 20000
+    },
+    {
+        "feature_layer": "T23_CentroInvestigacion",
+        "radio_servicio": 20000
+    },
+    {
+        "feature_layer": "T33_CECATrabajo",
+        "radio_servicio": 2000
+    }
+]

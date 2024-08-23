@@ -1,0 +1,54 @@
+[
+    {
+        "feature_layer": "T01_CanchaDeportiva",
+        "radio_servicio": 1200
+    },
+    {
+        "feature_layer": "T04_PistaPatinaje",
+        "radio_servicio": 2000
+    },
+    {
+        "feature_layer": "T06_LienzoCharro",
+        "radio_servicio": 20000
+    },
+    {
+        "feature_layer": "T08_PabellonDeportivo",
+        "radio_servicio": 1500
+    },
+    {
+        "feature_layer": "T09_CentroAcuatico",
+        "radio_servicio": 1500
+    },
+    {
+        "feature_layer": "T10_CentroModuloDeportivo_Polideportivo",
+        "radio_servicio": 1000
+    },
+    {
+        "feature_layer": "T11_UnidadDeportiva",
+        "radio_servicio": 20000
+    },
+    {
+        "feature_layer": "T12_ComplejoDeportivo",
+        "radio_servicio": 1500
+    },
+    {
+        "feature_layer": "T13_CiudadDeportiva",
+        "radio_servicio": 20000
+    },
+    {
+        "feature_layer": "T14_CampoGolf",
+        "radio_servicio": 20000
+    },
+    {
+        "feature_layer": "T15_Estadio",
+        "radio_servicio": 20000
+    },
+    {
+        "feature_layer": "T16_CentroParalimpico",
+        "radio_servicio": 20000
+    },
+    {
+        "feature_layer": "T17_Autodromo",
+        "radio_servicio": 20000
+    }
+]

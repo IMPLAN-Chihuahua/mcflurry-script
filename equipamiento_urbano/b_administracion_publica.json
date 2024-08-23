@@ -1,0 +1,54 @@
+[
+    {
+        "feature_layer":"T01_Delegaciones_mun_est_fed_y_desconcentradas",
+        "radio_servicio": 20000
+    },
+    {
+        "feature_layer":"T03_Instalaciones_poder_legislativo_entidades_fed",
+        "radio_servicio": 20000
+    },
+    {
+        "feature_layer":"T04_Cuartel_General_Militar",
+        "radio_servicio": 20000
+    },
+    {
+        "feature_layer":"T02_Instalaciones_justicia_entidades_fed",
+        "radio_servicio": 2000
+    },
+    {
+        "feature_layer":"T06_Instalacion_Gubernamental",
+        "radio_servicio": 20000
+    },
+    {
+        "feature_layer":"T07_Instalacion_SegPub",
+        "radio_servicio": 20000
+    },
+    {
+        "feature_layer":"T08_Instalaciones_Estrategicas_SegPub",
+        "radio_servicio": 20000
+    },
+    {
+        "feature_layer":"T09_Instalacion_Procuracion_Justicia",
+        "radio_servicio": 20000
+    },
+    {
+        "feature_layer":"T10_Instalaciones_Policiales",
+        "radio_servicio": 1200
+    },
+    {
+        "feature_layer":"T11_Centros_readaptacion_social",
+        "radio_servicio": 20000
+    },
+    {
+        "feature_layer":"T12_Centros_internamiento_meores",
+        "radio_servicio": 20000
+    },
+    {
+        "feature_layer":"T14_Instalaciones_Poder_Judicial_Federacion",
+        "radio_servicio": 20000
+    },
+    {
+        "feature_layer":"T16_Instalaciones_Organos_Autonomos",
+        "radio_servicio": 1200
+    }
+]

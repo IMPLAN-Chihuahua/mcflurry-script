@@ -1,0 +1,26 @@
+[
+    {
+        "feature_layer": "T01_Cementerio",
+        "radio_servicio": 5000
+    },
+    {
+        "feature_layer": "T02_Deposito_Vehicular_Mpal",
+        "radio_servicio": 20000
+    },
+    {
+        "feature_layer": "T03_Estacion_Bomberos",
+        "radio_servicio": 20000
+    },
+    {
+        "feature_layer": "T04_Centro_Atencion_Canina",
+        "radio_servicio": 2400
+    },
+    {
+        "feature_layer": "T05_Sitio_DispOficial_ResiduosSolidosUrb_y_ManejoEsp",
+        "radio_servicio": 20000
+    },
+    {
+        "feature_layer": "T07_Observatorio_Meteorologico",
+        "radio_servicio": 20000
+    }
+]

@@ -1,0 +1,34 @@
+[
+    {
+        "feature_layer": "T01_Casa_Cuna",
+        "radio_servicio": 1500
+    },
+    {
+        "feature_layer": "T02_Casa_Hogar_Menores",
+        "radio_servicio": 2000
+    },
+    {
+        "feature_layer": "T05_EstanciaInfantil_Guarderia",
+        "radio_servicio": 1500
+    },
+    {
+        "feature_layer": "T12_Albergues_Residencias_PersonasAdultasMayores",
+        "radio_servicio": 1500
+    },
+    {
+        "feature_layer": "T13_Establecimientos_AsistenciaSocial_Temporal",
+        "radio_servicio": 1200
+    },
+    {
+        "feature_layer": "T15_Centro_Desarrollo_Comunitario",
+        "radio_servicio": 700
+    },
+    {
+        "feature_layer": "T19_Velatorio",
+        "radio_servicio": 5000
+    },
+    {
+        "feature_layer": "T21_Establecimientos_especializados_adicciones",
+        "radio_servicio": 2400
+    }
+]

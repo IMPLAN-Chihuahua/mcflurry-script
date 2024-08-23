@@ -1,48 +1,46 @@
-{
-    "equipamientos": [
-        {
-            "feature_layer": "T01_Tianguis",
-            "buffer_distance": 1000
-        },
-        {
-            "feature_layer": "T02_Diconsa_Liconsa",
-            "buffer_distance": 1500
-        },
-        {
-            "feature_layer": "T03_TiendaFarmacia_SuperISSSTE",
-            "buffer_distance": 1500
-        },
-        {
-            "feature_layer": "T04_Banco_Bienestar",
-            "buffer_distance": 1200
-        },
-        {
-            "feature_layer": "T05_Sucursal_FONACOT",
-            "buffer_distance": 1200
-        },
-        {
-            "feature_layer": "T06_Mercado_Popular",
-            "buffer_distance": 750
-        },
-        {
-            "feature_layer": "T07_Centro_Comercial_Abierto",
-            "buffer_distance": 2400
-        },
-        {
-            "feature_layer": "T08_Centro_Comercial_TiendaAncalaSub",
-            "buffer_distance": 2400
-        },
-        {
-            "feature_layer": "T09_Banca_Desarrollo",
-            "buffer_distance": 1200
-        },
-        {
-            "feature_layer": "T10_Centro_Convenciones",
-            "buffer_distance": 20000
-        },
-        {
-            "feature_layer": "T11_Centro_Exposiciones_Exhibiciones",
-            "buffer_distance": 20000
-        }
-    ]
-}
+[
+    {
+        "feature_layer": "T01__Tianguis",
+        "radio_servicio": 1000
+    },
+    {
+        "feature_layer": "T02__DiconsaLiconsaSEGALMEX",
+        "radio_servicio": 1500
+    },
+    {
+        "feature_layer": "T03__Tiendas_y_Farmacias_SuperISSSTE",
+        "radio_servicio": 1500
+    },
+    {
+        "feature_layer": "T04__Sucursales_del_Banco_Bienestar",
+        "radio_servicio": 1200
+    },
+    {
+        "feature_layer": "T05__Sucursal_FONACOT",
+        "radio_servicio": 1200
+    },
+    {
+        "feature_layer": "T06__Mercado_Popular",
+        "radio_servicio": 750
+    },
+    {
+        "feature_layer": "T07__Centros_Comerciales_Abiertos",
+        "radio_servicio": 2400
+    },
+    {
+        "feature_layer": "T08__Centro_Comercial__con_Tienda_Ancla_o_Subancla",
+        "radio_servicio": 2400
+    },
+    {
+        "feature_layer": "T09__Banca_de_Desarrollo",
+        "radio_servicio": 1200
+    },
+    {
+        "feature_layer": "T10__Centro_de_Convenciones",
+        "radio_servicio": 20000
+    },
+    {
+        "feature_layer": "T11__Centro_de_exposiciones__exhibiciones_o_recinto_ferial",
+        "radio_servicio": 20000
+    }
+]

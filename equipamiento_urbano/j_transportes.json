@@ -1,0 +1,22 @@
+[
+    {
+        "feature_layer": "T04_Helipuerto",
+        "radio_servicio": 20000
+    },
+    {
+        "feature_layer": "T09_Aerodromo",
+        "radio_servicio": 20000
+    },
+    {
+        "feature_layer": "T13_Aeropuerto",
+        "radio_servicio": 20000
+    },
+    {
+        "feature_layer": "T21_Terminal_Ferroviaria",
+        "radio_servicio": 20000
+    },
+    {
+        "feature_layer": "T19_Terminal_central_pasajeros",
+        "radio_servicio": 20000
+    }
+]
