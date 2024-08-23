@@ -1,0 +1,29 @@
+{
+    "name": "poblacion",
+    "feature_layer": "PredioUrbano_Censo2020_Analisis",
+    "case_fields": [
+        "IDPS"
+    ],
+    "stat_fields": [
+        [
+            "Pob_Total_",
+            "SUM"
+        ],
+        [
+            "Pob_Fem_Pr",
+            "SUM"
+        ],
+        [
+            "Pob_Masc_P",
+            "SUM"
+        ],
+        [
+            "pcon_disc_",
+            "SUM"
+        ],
+        [
+            "psinder_Pr",
+            "SUM"
+        ]
+    ]
+}

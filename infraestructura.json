@@ -1,0 +1,39 @@
+[
+    {
+        "name": "pavimentacion",
+        "feature_layer": "Pavimentacion",
+        "case_fields": ["Tipo_Pavimento"],
+        "stat_fields": [
+            ["SupACm2", "SUM"],
+            ["Sup_Bnqts", "SUM"]
+        ]
+    },
+    {
+        "name": "estructura_vial",
+        "feature_layer": "estructura_vial_2023",
+        "case_fields": [
+            "jrq_vial",
+            "tp_vial",
+            "ciclovia"
+        ],
+        "stat_fields": []
+    },
+    {
+        "name": "alumbrado_publico",
+        "feature_layer": "Alumbrado_Publico",
+        "case_fields": [],
+        "stat_fields": []
+    }, 
+    {
+        "name": "transporte_publico_rutas",
+        "feature_layer": "TransportePublico",
+        "case_fields": ["Ruta"],
+        "stat_fields": []
+    },
+    {
+        "name": "transporte_publico_paraderos",
+        "feature_layer": "ParaderosdeTransportePublico_102019",
+        "case_fields": ["TipoParadero"],
+        "stat_fields": []
+    }
+]
